@@ -8,8 +8,9 @@ import { showMapAndSetResults } from "./map-and-set.js"
 import { showObjectIterationResult } from "./object-iteration.js"
 import { showDestructingResults } from "./destructing.js"
 import { showDateResult } from "./date.js"
+import { showJsonResults } from "./json.js"
 
-const showResults = () => {
+export const showDataTypesResults = () => {
   showNumbersTasks()
   showStringTasks()
   showArraysTasks()
@@ -18,6 +19,5 @@ const showResults = () => {
   showObjectIterationResult()
   showDestructingResults()
   showDateResult()
+  showJsonResults()
 }
-
-showResults()

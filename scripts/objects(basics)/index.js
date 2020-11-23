@@ -83,7 +83,7 @@ const checkFunc = () => {
         width: 200,
         height: 300,
         title: "My menu"
-      };
+      }
       
     console.log(multiplyNumeric(menu))
 

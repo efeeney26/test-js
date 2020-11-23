@@ -6,7 +6,7 @@ function checkAge(age) {
 
 function print() {
     for (let index = 2; index <= 10; index++) {
-        index % 2 === 0 && console.log(index);
+        index % 2 === 0 && console.log(index)
     }
 }
 

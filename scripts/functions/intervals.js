@@ -26,5 +26,5 @@ const printNumberTimeout = (from, to) => {
 
 export const showIntervalsResults = () => {
   //printNumbersInterval (1, 10)
-  printNumberTimeout(1, 5)
+  //printNumberTimeout(1, 5)
 }

@@ -3,13 +3,15 @@ import { showDataTypesResults } from "./scripts/data-types"
 import { showInheritanceRes } from "./scripts/inheritance"
 import { showClassesRes } from "./scripts/classes"
 import { showErrorsRes } from "./scripts/errors"
+import { showPromisesRes } from "./scripts/promises"
 
 const showResults = () => {
-  showDataTypesResults()
+  /*showDataTypesResults()
   showFunctionsResults()
   showInheritanceRes()
   showClassesRes()
-  showErrorsRes()
+  showErrorsRes()*/
+  showPromisesRes()
 }
 
 showResults()

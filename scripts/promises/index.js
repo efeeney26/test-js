@@ -7,5 +7,5 @@ import { showAsyncAwaitRes } from "./async|await.js"
 export const showPromisesRes = () => {
   //showCallbacksRes()
   //showPromRes()
-  showAsyncAwaitRes()
+  //showAsyncAwaitRes()
 }

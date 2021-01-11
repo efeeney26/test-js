@@ -4,7 +4,8 @@ import { showInheritanceRes } from "./scripts/inheritance"
 import { showClassesRes } from "./scripts/classes"
 import { showErrorsRes } from "./scripts/errors"
 import { showPromisesRes } from "./scripts/promises"
-import { showGeneratorsResults } from "./scripts/generators";
+import { showGeneratorsResults } from "./scripts/generators"
+import { showOtherResults } from "./scripts/others"
 
 
 const showResults = () => {
@@ -13,8 +14,9 @@ const showResults = () => {
   showInheritanceRes()
   showClassesRes()
   showErrorsRes()
-  showPromisesRes()*/
+  showPromisesRes()
   showGeneratorsResults()
+  showOtherResults()*/
 }
 
 showResults()

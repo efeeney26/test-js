@@ -8,6 +8,13 @@
 </head>
 <body>
     <div id="container">Hello</div>
+    <button onclick="load()">Нажми для загрузки асинхронного скрипта</button>
 </body>
 <script type="module" src="index.js"></script>
+<script>
+    const load = async () => {
+        let say = await import('./scripts/import|export/hi.js')
+        say.sayHi()
+    }
+</script>
 </html>

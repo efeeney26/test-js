@@ -2,10 +2,16 @@
 
 const books = ['1', '2', '3', '100', '4']
 
+const controller = new AbortController()
+setTimeout(() => controller.abort(), 1000)
+
 const getBooks = async (books) => {
     const jobs = []
     books.forEach(book => {
-        const job = fetch(`https://library-back-restapi.herokuapp.com/api/books/${book}`)
+        const job = fetch(`https://library-back-restapi.herokuapp.com/api/books/${book}`, {
+            signal: controller.signal,
+            referrerPolicy: 'origin-when-cross-origin'
+        })
             .then(async (res) => {
                 const reader = res.body.getReader()
 
@@ -25,7 +31,7 @@ const getBooks = async (books) => {
                     chunks.push(value)
                     receivedLength += value.length
 
-                    console.log(`Получено ${receivedLength} из ${contentLength}`)
+                    console.log(`Получено ${receivedLength} байт из ${contentLength} байт`)
                 }
 
                 // Шаг 4: соединим фрагменты в общий типизированный массив Uint8Array
@@ -43,8 +49,12 @@ const getBooks = async (books) => {
                 return JSON.parse(result)
             })
             .catch(e => {
-                console.error(e)
-                return null
+                if (e.name === 'AbortError') {
+                    console.error('Прервано AbortController')
+                } else {
+                    console.error(e)
+                    return null
+                }
             })
         jobs.push(job)
     })
@@ -54,4 +64,5 @@ const getBooks = async (books) => {
 export const showFetchResults = async () => {
     const res = await getBooks(books)
     console.log('res', res)
+    console.log(document.cookie)
 }

@@ -10,7 +10,7 @@
 <body>
     <div id="container">
         <div id="document">
-            <h3>Document</h3>
+            <h3>Навигация по DOM-элементам</h3>
             <table>
                 <tr>
                     <td>1:1</td>
@@ -58,6 +58,72 @@
                             cell.style.backgroundColor = 'red'
                         }
                     })
+                })
+            </script>
+        </div>
+        <div id="properties">
+            <h3>Свойства узлов: тип, тег и содержимое</h3>
+            <ul>
+                <li>Животные
+                    <ul>
+                        <li>Млекопитающие
+                            <ul>
+                                <li>Коровы</li>
+                                <li>Ослы</li>
+                                <li>Собаки</li>
+                                <li>Тигры</li>
+                            </ul>
+                        </li>
+                        <li>Другие
+                            <ul>
+                                <li>Змеи</li>
+                                <li>Птицы</li>
+                                <li>Ящерицы</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Рыбы
+                    <ul>
+                        <li>Аквариумные
+                            <ul>
+                                <li>Гуппи</li>
+                                <li>Рыба-ангел</li>
+                            </ul>
+                        </li>
+                        <li>Морские
+                            <ul>
+                                <li>Морская форель</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <script>
+                const list = [...document.querySelectorAll('#properties li')]
+                const res = []
+                list.forEach((elem) => {
+                    res.push(`${elem.firstChild.data.trim()}(${elem.querySelectorAll('li').length})`)
+                })
+            </script>
+        </div>
+        <div id="attributes">
+            <h3>Атрибуты и свойства</h3>
+            <a name="list">the list</a>
+            <ul>
+                <li><a href="http://google.com">http://google.com</a></li>
+                <li><a href="/tutorial">/tutorial.html</a></li>
+                <li><a href="local/path">local/path</a></li>
+                <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+                <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+                <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+            </ul>
+            <script>
+                const list1 = [...document.querySelectorAll('#attributes a')]
+                list1.forEach(elem => {
+                    if ( elem.innerHTML.includes('://') && !elem.innerHTML.includes('http://internal.com')) {
+                        elem.style.color = 'orange'
+                    }
                 })
             </script>
         </div>

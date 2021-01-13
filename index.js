@@ -6,6 +6,7 @@ import { showErrorsRes } from "./scripts/errors"
 import { showPromisesRes } from "./scripts/promises"
 import { showGeneratorsResults } from "./scripts/generators"
 import { showOtherResults } from "./scripts/others"
+import { showFetchResults } from "./scripts/fetch"
 
 
 const showResults = () => {
@@ -17,6 +18,7 @@ const showResults = () => {
   showPromisesRes()
   showGeneratorsResults()
   showOtherResults()*/
+  showFetchResults()
 }
 
 showResults()

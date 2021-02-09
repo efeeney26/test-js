@@ -8,6 +8,7 @@ import { showGeneratorsResults } from "./scripts/generators"
 import { showOtherResults } from "./scripts/others"
 import { showFetchResults } from "./scripts/fetch"
 
+console.log('test')
 
 const showResults = () => {
   /*showDataTypesResults()

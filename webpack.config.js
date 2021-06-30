@@ -7,13 +7,12 @@ const NODE_ENV = process.env.NODE_ENV || 'development'
 module.exports = {
     context: path.join(__dirname, './src'),
     entry: {
-        home: './home',
-        about: './about'
+        app: '/app'
     },
     output: {
         path: path.join(__dirname, `/target-${NODE_ENV === 'development' ? 'dev' : 'prod'}`),
-        filename: '[name].js',
-        library: "[name]"
+        publicPath: `/target-${NODE_ENV === 'development' ? 'dev' : 'prod'}/`,
+        filename: '[name].js'
     },
     watch: NODE_ENV === 'development',
     watchOptions: {
@@ -44,13 +43,14 @@ module.exports = {
             }
         })],
         splitChunks: {
+            chunks: "all",
             cacheGroups: {
                 commons: {
                     name: 'commons',
                     chunks: 'initial',
                     minChunks: 2
                 }
-            },
+            }
         },
         emitOnErrors: false
     },

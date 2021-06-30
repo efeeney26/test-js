@@ -7,4 +7,4 @@ const welcome = (str) => {
     console.log(`welcome ${str}`)
 }
 
-module.exports =  welcome
+export default welcome

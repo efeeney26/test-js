@@ -1,7 +1,5 @@
 'use strict'
 
-const welcome = require('./welcome')
+import welcome from './welcome'
 
 welcome('home!')
-
-exports.welcome = welcome

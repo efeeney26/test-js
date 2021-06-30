@@ -1,0 +1,1339 @@
+{
+  "hash": "127d2a6a9ce8a4be0ffd",
+  "version": "5.41.0",
+  "time": 414,
+  "builtAt": 1625062467419,
+  "publicPath": "auto",
+  "outputPath": "/Users/efeeney/Documents/projects/test-js/target-dev",
+  "assetsByChunkName": {
+    "home": [
+      "home.js"
+    ],
+    "about": [
+      "about.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "about.js",
+      "size": 2589,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 2589
+      },
+      "chunkNames": [
+        "about"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        443
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "home.js",
+      "size": 2586,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 2586
+      },
+      "chunkNames": [
+        "home"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        177
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 534,
+      "sizes": {
+        "javascript": 260,
+        "runtime": 274
+      },
+      "names": [
+        "home"
+      ],
+      "idHints": [],
+      "runtime": [
+        "home"
+      ],
+      "files": [
+        "home.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "f883d70c4ae947dd04ad",
+      "childrenByOrder": {},
+      "id": 177,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 260,
+          "sizes": {
+            "javascript": 260
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js|b6fe0b21fb892ff5e9a0b3e5a337a589",
+          "name": "./home.js + 1 modules",
+          "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 143,
+          "chunks": [
+            177
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./home",
+              "loc": "home",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 68,
+              "sizes": {
+                "javascript": 68
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "name": "./home.js",
+              "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 4:0-17"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 192,
+              "sizes": {
+                "javascript": 192
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+              "name": "./welcome.js",
+              "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "issuerName": "./home.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "name": "./home.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+                  "module": "./about.js",
+                  "moduleName": "./about.js",
+                  "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+                  "resolvedModule": "./about.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./welcome.js",
+                  "loc": "3:0-35",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+                  "module": "./about.js",
+                  "moduleName": "./about.js",
+                  "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+                  "resolvedModule": "./about.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./welcome.js",
+                  "loc": "4:0-7",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "module": "./home.js",
+                  "moduleName": "./home.js",
+                  "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "resolvedModule": "./home.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./welcome.js",
+                  "loc": "3:0-35",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "module": "./home.js",
+                  "moduleName": "./home.js",
+                  "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "resolvedModule": "./home.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./welcome.js",
+                  "loc": "4:0-7",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            177
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "home",
+          "request": "./home"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 534,
+      "sizes": {
+        "javascript": 260,
+        "runtime": 274
+      },
+      "names": [
+        "about"
+      ],
+      "idHints": [],
+      "runtime": [
+        "about"
+      ],
+      "files": [
+        "about.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "08005f240e63f9eba5a0",
+      "childrenByOrder": {},
+      "id": 443,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 260,
+          "sizes": {
+            "javascript": 260
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js|879b7c9ab5b405185efb48cd8be49fd7",
+          "name": "./about.js + 1 modules",
+          "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/about.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 662,
+          "chunks": [
+            443
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./about",
+              "loc": "about",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 68,
+              "sizes": {
+                "javascript": 68
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "name": "./about.js",
+              "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 4:0-17"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 192,
+              "sizes": {
+                "javascript": 192
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+              "name": "./welcome.js",
+              "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "issuerName": "./home.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "name": "./home.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+                  "module": "./about.js",
+                  "moduleName": "./about.js",
+                  "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+                  "resolvedModule": "./about.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./welcome.js",
+                  "loc": "3:0-35",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+                  "module": "./about.js",
+                  "moduleName": "./about.js",
+                  "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+                  "resolvedModule": "./about.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./welcome.js",
+                  "loc": "4:0-7",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "module": "./home.js",
+                  "moduleName": "./home.js",
+                  "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "resolvedModule": "./home.js",
+                  "type": "harmony side effect evaluation",
+                  "active": false,
+                  "explanation": "",
+                  "userRequest": "./welcome.js",
+                  "loc": "3:0-35",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "module": "./home.js",
+                  "moduleName": "./home.js",
+                  "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+                  "resolvedModule": "./home.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./welcome.js",
+                  "loc": "4:0-7",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            443
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "about",
+          "request": "./about"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
+      "size": 260,
+      "sizes": {
+        "javascript": 260
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js|b6fe0b21fb892ff5e9a0b3e5a337a589",
+      "name": "./home.js + 1 modules",
+      "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/home.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 143,
+      "chunks": [
+        177
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./home",
+          "loc": "home",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": null,
+          "active": true,
+          "explanation": "used as library export",
+          "userRequest": null,
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 68,
+          "sizes": {
+            "javascript": 68
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "name": "./home.js",
+          "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:0-17"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 192,
+          "sizes": {
+            "javascript": 192
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+          "name": "./welcome.js",
+          "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "issuerName": "./home.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "name": "./home.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "resolvedModule": "./about.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./welcome.js",
+              "loc": "3:0-35",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "resolvedModule": "./about.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./welcome.js",
+              "loc": "4:0-7",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "resolvedModule": "./home.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./welcome.js",
+              "loc": "3:0-35",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "resolvedModule": "./home.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./welcome.js",
+              "loc": "4:0-7",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
+      "size": 260,
+      "sizes": {
+        "javascript": 260
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js|879b7c9ab5b405185efb48cd8be49fd7",
+      "name": "./about.js + 1 modules",
+      "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/about.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 662,
+      "chunks": [
+        443
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./about",
+          "loc": "about",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": null,
+          "active": true,
+          "explanation": "used as library export",
+          "userRequest": null,
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 68,
+          "sizes": {
+            "javascript": 68
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+          "name": "./about.js",
+          "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/about.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:0-17"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 192,
+          "sizes": {
+            "javascript": 192
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+          "name": "./welcome.js",
+          "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "issuerName": "./home.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "name": "./home.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "resolvedModule": "./about.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./welcome.js",
+              "loc": "3:0-35",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+              "resolvedModule": "./about.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./welcome.js",
+              "loc": "4:0-7",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "resolvedModule": "./home.js",
+              "type": "harmony side effect evaluation",
+              "active": false,
+              "explanation": "",
+              "userRequest": "./welcome.js",
+              "loc": "3:0-35",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+              "resolvedModule": "./home.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./welcome.js",
+              "loc": "4:0-7",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 192,
+      "sizes": {
+        "javascript": 192
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+      "name": "./welcome.js",
+      "nameForCondition": "/Users/efeeney/Documents/projects/test-js/src/welcome.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+      "issuerName": "./home.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "name": "./home.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+          "module": "./about.js",
+          "moduleName": "./about.js",
+          "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+          "resolvedModule": "./about.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./welcome.js",
+          "loc": "3:0-35",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+          "module": "./about.js",
+          "moduleName": "./about.js",
+          "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/about.js",
+          "resolvedModule": "./about.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./welcome.js",
+          "loc": "4:0-7",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "module": "./home.js",
+          "moduleName": "./home.js",
+          "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "resolvedModule": "./home.js",
+          "type": "harmony side effect evaluation",
+          "active": false,
+          "explanation": "",
+          "userRequest": "./welcome.js",
+          "loc": "3:0-35",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "module": "./home.js",
+          "moduleName": "./home.js",
+          "resolvedModuleIdentifier": "/Users/efeeney/Documents/projects/test-js/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/Users/efeeney/Documents/projects/test-js/src/home.js",
+          "resolvedModule": "./home.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./welcome.js",
+          "loc": "4:0-7",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        177
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        443
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "home": {
+      "name": "home",
+      "chunks": [
+        177
+      ],
+      "assets": [
+        {
+          "name": "home.js",
+          "size": 2586
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 2586,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "about": {
+      "name": "about",
+      "chunks": [
+        443
+      ],
+      "assets": [
+        {
+          "name": "about.js",
+          "size": 2589
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 2589,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "home": {
+      "name": "home",
+      "chunks": [
+        177
+      ],
+      "assets": [
+        {
+          "name": "home.js",
+          "size": 2586
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 2586,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "about": {
+      "name": "about",
+      "chunks": [
+        443
+      ],
+      "assets": [
+        {
+          "name": "about.js",
+          "size": 2589
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 2589,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [
+    {
+      "message": "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/",
+      "stack": "NoModeWarning: configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/\n    at compiler.hooks.thisCompilation.tap.compilation (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/WarnNoModeSetPlugin.js:20:30)\n    at Hook.eval [as call] (eval at create (/Users/efeeney/Documents/projects/test-js/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:23:1)\n    at Hook.CALL_DELEGATE [as _call] (/Users/efeeney/Documents/projects/test-js/node_modules/tapable/lib/Hook.js:14:14)\n    at Compiler.newCompilation (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/Compiler.js:1033:30)\n    at hooks.beforeCompile.callAsync.err (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/Compiler.js:1076:29)\n    at Hook.eval [as callAsync] (eval at create (/Users/efeeney/Documents/projects/test-js/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/efeeney/Documents/projects/test-js/node_modules/tapable/lib/Hook.js:18:14)\n    at Compiler.compile (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/Compiler.js:1071:28)\n    at compiler.hooks.watchRun.callAsync.err (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/Watching.js:188:19)\n    at Hook.eval [as callAsync] (eval at create (/Users/efeeney/Documents/projects/test-js/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/efeeney/Documents/projects/test-js/node_modules/tapable/lib/Hook.js:18:14)\n    at run (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/Watching.js:142:33)\n    at compiler.readRecords.err (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/Watching.js:137:6)\n    at Compiler.readRecords (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/Compiler.js:910:11)\n    at run (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/Watching.js:133:26)\n    at Watching._go (/Users/efeeney/Documents/projects/test-js/node_modules/webpack/lib/Watching.js:192:3)"
+    }
+  ],
+  "warningsCount": 1,
+  "children": []
+}

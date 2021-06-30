@@ -1,13 +1,19 @@
+const path = require('path')
 const webpack = require('webpack')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 const NODE_ENV = process.env.NODE_ENV || 'development'
 
 module.exports = {
-    entry: "./home",
+    context: path.join(__dirname, './src'),
+    entry: {
+        home: './home',
+        about: './about'
+    },
     output: {
-        filename: 'build.js',
-        library: "home"
+        path: path.join(__dirname, `/target-${NODE_ENV === 'development' ? 'dev' : 'prod'}`),
+        filename: '[name].js',
+        library: "[name]"
     },
     watch: NODE_ENV === 'development',
     watchOptions: {
@@ -37,6 +43,16 @@ module.exports = {
                 unsafe: true
             }
         })],
+        splitChunks: {
+            cacheGroups: {
+                commons: {
+                    name: 'commons',
+                    chunks: 'initial',
+                    minChunks: 2
+                }
+            },
+        },
+        emitOnErrors: false
     },
     module: {
         rules: [

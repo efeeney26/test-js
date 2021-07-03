@@ -2,6 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const NODE_ENV = process.env.NODE_ENV || 'development'
 
@@ -22,6 +23,9 @@ module.exports = {
         new webpack.DefinePlugin({
             NODE_ENV: JSON.stringify(NODE_ENV),
             LANG: JSON.stringify('ru')
+        }),
+        new HtmlWebpackPlugin({
+            publicPath: `/target-${NODE_ENV === 'development' ? 'dev' : 'prod'}`
         })
     ],
     resolve: {

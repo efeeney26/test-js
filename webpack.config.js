@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const NODE_ENV = process.env.NODE_ENV || 'development'
 
@@ -17,6 +18,7 @@ module.exports = {
     },
     devtool: NODE_ENV === 'development' ? "inline-cheap-module-source-map" : false,
     plugins: [
+        new MiniCssExtractPlugin(),
         new webpack.DefinePlugin({
             NODE_ENV: JSON.stringify(NODE_ENV),
             LANG: JSON.stringify('ru')
@@ -58,8 +60,13 @@ module.exports = {
                 }
             },
             {
-                test: /\.s[ac]ss$/i,
-                use: ["style-loader", "css-loader", "sass-loader"],
+                test: /\.(sa|sc|c)ss$/,
+                exclude: /node_modules/,
+                use: [
+                    NODE_ENV === 'development' ? 'style-loader' : MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    "sass-loader"
+                ]
             },
             {
                 test: /\.(png|jpe?g|gif|svg)$/i,

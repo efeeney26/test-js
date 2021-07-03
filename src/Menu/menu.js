@@ -1,6 +1,6 @@
 'use strict'
 
-import './style.css'
+import './style.scss'
 
 class Menu {
     constructor(options) {

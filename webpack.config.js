@@ -24,9 +24,7 @@ module.exports = {
             NODE_ENV: JSON.stringify(NODE_ENV),
             LANG: JSON.stringify('ru')
         }),
-        new HtmlWebpackPlugin({
-            publicPath: `/target-${NODE_ENV === 'development' ? 'dev' : 'prod'}`
-        })
+        new HtmlWebpackPlugin({})
     ],
     resolve: {
         modules: ['node_modules'],
@@ -85,5 +83,9 @@ module.exports = {
             },
 
         ]
+    },
+    devServer: {
+        host: 'localhost',
+        port: 8080
     }
 }

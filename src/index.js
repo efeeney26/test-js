@@ -1,14 +1,22 @@
-import component from "./component/component";
-import print from "./print";
+import _ from 'lodash';
+import numRef from './ref.json';
 
-const main = () => {
-    const button = document.createElement('button')
-    button.innerHTML='Click me'
-    button.onclick = () => {
-        print()
-    }
-    document.body.appendChild(component())
-    document.body.appendChild(button)
+export function numToWord(num) {
+    return _.reduce(
+        numRef,
+        (accum, ref) => {
+            return ref.num === num ? ref.word : accum;
+        },
+        ''
+    );
 }
 
-main()
+export function wordToNum(word) {
+    return _.reduce(
+        numRef,
+        (accum, ref) => {
+            return ref.word === word && word.toLowerCase() ? ref.num : accum;
+        },
+        -1
+    );
+}

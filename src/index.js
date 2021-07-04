@@ -1,11 +1,14 @@
-import { join } from 'lodash'
+import component from "./component/component";
+import print from "./print";
 
-function component() {
-    const element = document.createElement('div')
-
-    element.innerHTML = join(['Hello', 'webpack'], ' ')
-
-    return element
+const main = () => {
+    const button = document.createElement('button')
+    button.innerHTML="Click me"
+    button.onclick = () => {
+        print()
+    }
+    document.body.appendChild(component())
+    document.body.appendChild(button)
 }
 
-document.body.appendChild(component())
+main()

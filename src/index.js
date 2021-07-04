@@ -1,10 +1,10 @@
 import component from "./component/component";
+import print from "./print";
 
 const main = () => {
     const button = document.createElement('button')
     button.innerHTML='Click me'
-    button.onclick = async () => {
-        const { default: print } = await import('./print')
+    button.onclick = () => {
         print()
     }
     document.body.appendChild(component())

@@ -13,7 +13,6 @@ module.exports = {
         path: path.join(__dirname, `/target-${NODE_ENV === 'development' ? 'dev' : 'prod'}`),
         filename: '[name].js'
     },
-    watch: NODE_ENV === 'development',
     watchOptions: {
         aggregateTimeout: 100
     },
@@ -86,6 +85,12 @@ module.exports = {
     },
     devServer: {
         host: 'localhost',
-        port: 8080
+        port: 3000,
+        proxy: [
+            {
+                path: '/api',
+                target: 'http://localhost:8080'
+            }
+        ]
     }
 }

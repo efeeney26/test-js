@@ -6,7 +6,7 @@ import './style.css'
 function component() {
     const element = document.createElement('div')
 
-    element.innerHTML = join(['Hello', 'webpack'], ' ')
+    element.innerHTML = join(['Hello', 'webpack', '!!'], ' ')
     element.className = 'hello'
 
     const myIcon = new Image()

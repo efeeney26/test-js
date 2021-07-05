@@ -1,4 +1,5 @@
 import component from "./component/component";
+import print from "./print";
 
 const main = () => {
     const button = document.createElement('button')
@@ -12,3 +13,10 @@ const main = () => {
 }
 
 main()
+
+if (module.hot) {
+    module.hot.accept('./print.js', function() {
+        console.log('Accepting the updated print module!')
+        print()
+    })
+}

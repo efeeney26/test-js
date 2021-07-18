@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "testing js",
   "private": true,
+  "sideEffects": false,
   "scripts": {
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack --mode=development",
+    "build-prod": "webpack --mode=production"
   },
   "repository": {
     "type": "git",

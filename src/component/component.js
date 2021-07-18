@@ -1,17 +1,12 @@
-import img from "../../assets/images/test.png"
-
-import './style.css'
+import { square } from "../utils/math";
 
 function component() {
-    const element = document.createElement('div')
+    const element = document.createElement('pre')
 
-    element.innerHTML = 'Hello webpack'
-    element.className = 'hello'
-
-    const myIcon = new Image()
-    myIcon.src = img
-
-    element.appendChild(myIcon)
+    element.innerHTML = [
+        'Hello webpack!',
+        '5 square is equal to ' + square(5)
+    ].join('\n\n')
 
     return element
 }
